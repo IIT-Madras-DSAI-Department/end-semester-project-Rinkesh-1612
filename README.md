@@ -1,5 +1,4 @@
 
-
 ```markdown
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/R05VM8Rg)
 
@@ -24,15 +23,15 @@ END-SEMESTER-PROJECT-RINKESH-1612/
 ├── algorithms.py            # Core ML implementations: PCA, KNearestNeighbors, LogisticRegression, Bagging
 ├── analysis.py              # Post-hoc analysis: generates 5 report figures + observations
 ├── report/
-|── report_figures/      # All PNGs: confusion matrix, F1 scores, PCA   variance, 2D proj, misclassified
+│   └── report_figures/      # All PNGs: confusion matrix, F1 scores, PCA variance, 2D proj, misclassified
 │       ├── confusion_matrix.png
 │       ├── per_class_f1.png
 │       ├── pca_variance_explained.png
 │       ├── class_separation_2d.png
 │       └── misclassified_examples.png
-|
-├── MNIST_train.csv
-└── MNIST_validation.csv
+├── data/
+│   ├── MNIST_train.csv
+│   └── MNIST_validation.csv
 ├── ml_lab_end_sem_report.pdf # Final LaTeX report with in-depth analysis
 └── README.md
 ```
@@ -133,7 +132,5 @@ Open `ml_lab_end_sem_report.pdf` — includes:
 
 ---
 
-> **TAs**: Please evaluate using `main.py` and `analysis.py`. All plots and the final report are included.
-```
 
 
